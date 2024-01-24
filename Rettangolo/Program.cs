@@ -16,7 +16,7 @@ namespace Rettangolo
             
             Console.WriteLine("Area:{0}", r.Area());
             Console.WriteLine("Perimetro:{0}", r.Perimetro());
-            Console.WriteLine(r.ToString());
+            Console.WriteLine(r);
             
             Console.WriteLine();
 
@@ -24,7 +24,7 @@ namespace Rettangolo
             Quadrato q = new Quadrato(l1);
             Console.WriteLine("Area:{0}", q.Area());
             Console.WriteLine("Perimetro:{0}", q.Perimetro());
-            Console.WriteLine(q.ToString());
+            Console.WriteLine(q);
 
             Console.ReadLine();
         }
